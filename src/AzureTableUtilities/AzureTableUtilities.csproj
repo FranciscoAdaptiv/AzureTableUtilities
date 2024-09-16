@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <DebugType>Full</DebugType>
     <RootNamespace>TheByteStuff.AzureTableUtilities</RootNamespace>
-    <Version>6.1.0</Version>
+    <Version>7.0.0-pre</Version>
     <Company>The Byte Stuff, LLC</Company>
     <Authors>The Byte Stuff, LLC</Authors>
     <Description>Backup, Copy, Delete and Restore options for use with Azure Tables.  An alternative to tools such as AZCopy.
@@ -41,25 +41,21 @@ v6.0.0 - ** Backup/Restore is NOT compatible with prior versions **   Upgrade fr
     <PackageLicenseUrl>https://github.com/TheByteStuff/AzureTableUtilities/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://github.com/TheByteStuff/AzureTableUtilities/blob/master/src/AzureTableUtilities/CardFront_Clip.png</PackageIconUrl>
     <PackageReleaseNotes>Correct problem with Timestamp filter, changed literal type from DateTimeOffset to DateTime.</PackageReleaseNotes>
-    <AssemblyVersion>6.1.0.0</AssemblyVersion>
+    <AssemblyVersion>7.0.0-pre</AssemblyVersion>
     <RepositoryUrl>https://github.com/TheByteStuff/AzureTableUtilities</RepositoryUrl>
     <PackageTags>AzureTables AZCopy Backup Copy Delete Restore</PackageTags>
     <RepositoryType>git</RepositoryType>
     <PackageId>TheByteStuff.AzureTableUtilities</PackageId>
-    <FileVersion>6.1.0.0</FileVersion>
+    <FileVersion>7.0.0-pre</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\github\TheByteStuff\AzureTableUtilities\src\AzureTableUtilities\AzureTableUtilities.xml</DocumentationFile>
+    <DocumentationFile></DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Azure.Data.Tables" Version="12.8.0" />
-    <PackageReference Include="Azure.Storage.Blobs" Version="12.13.0" />
-    <PackageReference Include="Microsoft.Azure.Storage.Blob" Version="11.1.7" />
-    <PackageReference Include="Microsoft.Azure.Storage.File" Version="11.1.7" />
-    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
-    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="Azure.Data.Tables" Version="12.9.0" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.21.2" />
   </ItemGroup>
 
 </Project>
