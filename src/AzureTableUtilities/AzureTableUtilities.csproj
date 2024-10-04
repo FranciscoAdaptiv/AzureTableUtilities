@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <DebugType>Full</DebugType>
     <RootNamespace>TheByteStuff.AzureTableUtilities</RootNamespace>
     <Version>6.1.0</Version>
@@ -50,7 +50,7 @@ v6.0.0 - ** Backup/Restore is NOT compatible with prior versions **   Upgrade fr
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>D:\github\TheByteStuff\AzureTableUtilities\src\AzureTableUtilities\AzureTableUtilities.xml</DocumentationFile>
+    <DocumentationFile>C:\AzureTableUtilities\AzureTableUtilities\AzureTableUtilities.xml</DocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
